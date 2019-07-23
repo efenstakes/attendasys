@@ -1,0 +1,25 @@
+<div class="container">
+
+
+    <div class="row">
+        <!-- offset-md-1 -->
+        <div class="card col-md-3" *ngFor="let room of [1, 2, 3, 4]" style="margin-top: 10px; margin-left: 10px;">
+            <div class="card-header">Header</div>
+            <div class="card-body">Content</div>
+            <div class="card-footer">Footer</div>
+        </div>
+    </div>
+
+
+
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <button type="button" class="btn btn-primary btn-block" (click)="goToAddRoom()"> ADD ROOM </button>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+
+
+
+</div>
